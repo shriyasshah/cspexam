@@ -8,12 +8,12 @@ flashcards = [
     {'term': 'Renewable Resource', 'definition': 'A natural resource that can be replenished over time, like solar or wind energy.'},
     {'term': 'Greenhouse Effect', 'definition': 'The trapping of heat in Earth’s atmosphere by greenhouse gases like CO2 and methane.'},
     {'term': 'Sustainability', 'definition': 'Meeting our own needs without compromising the ability of future generations to meet theirs.'},
-    {'term': 'Thermal Pollution', 'definition': 'Heat released into the water produces negative effects to the organisms in that ecosystem and can cause eutrophication.'},
+    {'term': 'Thermal Pollution', 'definition': 'Heat released into the water produces negative effects to the organisms in that ecosystem and cause eutrophication.'},
     {'term': 'Ecosystem', 'definition': 'A biological community of interacting organisms and their physical environment.'},
     {'term': 'Overfishing', 'definition': 'Depleting fish populations by catching fish faster than they can reproduce.'},
     {'term': 'Acid Rain', 'definition': 'Rainfall made acidic by pollution that causes harm to the environment.'},
     {'term': 'Fossil Fuels', 'definition': 'Natural fuels like coal, oil, and gas formed from the remains of ancient organisms.'},
-    {'term': 'Thermal Inversion', 'definition': 'Warm air blankets cool air, traps pollution, forms easily in valleys.'},
+    {'term': 'Thermal Inversion', 'definition': 'Warm air blankets cool air, traps pollution, forms easily in valleys'},
     {'term': 'Watershed', 'definition': 'An area of land where all the water drains into a common body of water like a river or lake.'},
     {'term': 'Invasive Species', 'definition': 'Non-native organisms that spread quickly and harm local ecosystems.'}
 ]
@@ -40,3 +40,4 @@ try:
         print("❗ Please enter a valid number within the range.")
 except ValueError:
     print("❗ Invalid input. Please enter a number.")
+    
